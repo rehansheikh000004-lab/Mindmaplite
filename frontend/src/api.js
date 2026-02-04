@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const API = axios.create({
-  baseURL: "https://YOUR-RENDER-URL.onrender.com",
+  baseURL: "https://mindmaplite.onrender.com",
   headers:{
     Authorization: localStorage.getItem("token")
   }
